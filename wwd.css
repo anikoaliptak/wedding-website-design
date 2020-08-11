@@ -1,0 +1,35 @@
+/* ===================
+    GENERAL STYLES 
+   ===================*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* single-direction margin declaration */
+h1,h2,h3,
+ul, ol,
+p,
+img {
+  margin-bottom: 1.5rem;
+}
+
+body {
+  background: url(assets/wedding-landing-background.png);
+  font-family: 'Libre Baskervile', serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  color: #444349;  
+}
+
+.locations,
+.program,
+.gifts,
+.faq,
+.contact {
+  width: 95%;
+  margin: 1.5rem auto;
+  padding: .5rem 1rem;
+  text-align: center;
+}
+

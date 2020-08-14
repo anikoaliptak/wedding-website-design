@@ -167,3 +167,54 @@ HEADER STYLES
 .program ul {
   letter-spacing: .025rem;
 }
+
+/* ===========
+  GIFTS STYLES
+  ============ */
+
+.gifts img {
+  height: 7.5rem;
+}
+
+.gifts p:last-child { /* To even out the bottom and top margins of this section. */
+  margin-bottom: 0;
+}
+
+/* ===========
+   FAQ STYLES
+   =========== */
+
+.faq {
+  background: hsla(100,0%,0%,.6);
+  width: 100vw;
+  text-align: center;
+  color: #d2ba87;
+}
+
+.faq h2 {
+  margin-top: 1rem;
+}
+
+.faq p {
+  font-family: 'Mulish', sans-serif;
+  text-align: left;
+}
+
+.question-group::after {
+  display: block;
+  content: "";
+  height: .1775rem;
+  width: 50vw;
+  margin: 1.5rem auto;
+  background-color: #d2ba87;
+}
+
+.question {
+  font-weight: 700;
+  margin-bottom: .5rem;
+}
+
+.answer {
+  margin-bottom: 1.5rem;
+}
+

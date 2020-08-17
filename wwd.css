@@ -218,3 +218,31 @@ HEADER STYLES
   margin-bottom: 1.5rem;
 }
 
+/* ==============
+   FOOTER STYLES
+   ============== */
+
+footer {
+  display: table;
+  width: 100vw;
+  height: 10vh;
+  text-align: center;
+  background-color: #606060;
+  font-size: .875rem;
+  color: #fff;
+  font-family: 'Mulish', sans-serif;
+}
+
+.footer-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+  padding: .5rem 1rem;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+footer small {
+  line-height: 1.5;
+}
